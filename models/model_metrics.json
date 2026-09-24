@@ -1,0 +1,50 @@
+{
+    "best_model_name": "Linear Regression",
+    "leaderboard": {
+        "Linear Regression": {
+            "MAE": 0.4414,
+            "MSE": 3.2353,
+            "RMSE": 1.7987,
+            "R2": 0.7711
+        },
+        "Decision Tree": {
+            "MAE": 1.6446,
+            "MSE": 7.1533,
+            "RMSE": 2.6746,
+            "R2": 0.4939
+        },
+        "Random Forest": {
+            "MAE": 1.1472,
+            "MSE": 4.8016,
+            "RMSE": 2.1913,
+            "R2": 0.6603
+        },
+        "Gradient Boosting": {
+            "MAE": 0.7849,
+            "MSE": 4.0023,
+            "RMSE": 2.0006,
+            "R2": 0.7169
+        }
+    },
+    "feature_names": [
+        "Hours_Studied",
+        "Attendance",
+        "Sleep_Hours",
+        "Previous_Scores",
+        "Tutoring_Sessions",
+        "Physical_Activity",
+        "Parental_Involvement",
+        "Access_to_Resources",
+        "Extracurricular_Activities",
+        "Motivation_Level",
+        "Internet_Access",
+        "Family_Income",
+        "Teacher_Quality",
+        "School_Type",
+        "Peer_Influence",
+        "Learning_Disabilities",
+        "Parental_Education_Level",
+        "Distance_from_Home",
+        "Gender"
+    ]
+}
